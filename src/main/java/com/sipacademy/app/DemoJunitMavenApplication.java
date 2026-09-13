@@ -17,7 +17,9 @@ public class DemoJunitMavenApplication {
 		
 		double prod = c.produit(10, 20);
 		
-		System.out.println("La somme et le produit de 10 et 20 : "+res+" : "+ prod);
+		double soustraction = c.soustraction(10, 20);
+		
+		System.out.println("La somme et le produit et soustraction de 10 et 20 : "+res+" : "+ prod +" : "+ soustraction);
 	}
 
 }
