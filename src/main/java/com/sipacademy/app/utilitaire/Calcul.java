@@ -11,5 +11,10 @@ public class Calcul {
 	{
 		return x*y;
 	}
+	
+	public double soustraction(double x, double y)
+	{
+		return x-y;
+	}
 
 }

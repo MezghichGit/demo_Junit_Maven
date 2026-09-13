@@ -21,5 +21,14 @@ public class TestCalcul {
 		assertEquals(200,c.produit(10,20));
 		
 	}
+	
+	@Test
+	public void testSoustraction()
+	{
+		Calcul c = new Calcul();
+		assertEquals(10,c.produit(10,20));
+		
+	}
+
 
 }
