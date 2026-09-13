@@ -26,7 +26,7 @@ public class TestCalcul {
 	public void testSoustraction()
 	{
 		Calcul c = new Calcul();
-		assertEquals(10,c.produit(10,20));
+		assertEquals(-10,c.produit(10,20));
 		
 	}
 
