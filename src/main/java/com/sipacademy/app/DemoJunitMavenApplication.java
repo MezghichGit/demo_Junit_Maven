@@ -10,6 +10,7 @@ public class DemoJunitMavenApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoJunitMavenApplication.class, args);
+		System.out.println("Hello Devops");
 		Calcul c = new Calcul();
 		
 		double res = c.somme(10,20);
